@@ -1,14 +1,14 @@
 name: roshani maurya
 
-on: 
-   push:
-      branches: [ main ]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-   demo:
-     runs-on: ubantu_latest
+  demo:
+    runs-on: ubuntu-latest
 
-     steps:
-        - name: greetings
-          run: echo "Hello from roshani"
-        
+    steps:
+      - name: greetings
+        run: echo "Hello from roshani"
