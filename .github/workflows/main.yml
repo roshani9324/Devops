@@ -1,0 +1,14 @@
+name: roshani maurya
+
+on: 
+   push:
+      branches: [ main ]
+
+jobs:
+   demo:
+     runs-on: ubantu_latest
+
+     steps:
+        - name: greetings
+          run: echo "Hello from roshani"
+        
